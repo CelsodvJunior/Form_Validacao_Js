@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Validação JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+   <!--usa-se o defer para que o arquivo rode depois do html, para evitar erros, ou coloque-o no final do body--> 
+    <script src="sc
+    ripts.js" defer></script> 
+ 
+</head>
+<body>
+    <h1>Form com Validação JavaScript</h1>
+
+    <div id="formulario">
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">E-mail:</label>
+            <input type="email"  id="email">
+            <label for="password">Senha:</label>
+            <input type="password"  id="password">
+            <label for="job">Situação de trabalho:</label>
+            <select name="job" id="job">
+                <option value="">Está buscando emprego? </option>
+                <option value="yes">SIM</option>
+                <option value="no">NÃO</option>
+            </select>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" ></textarea>
+        
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
